@@ -355,6 +355,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -423,6 +431,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -656,6 +672,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -802,7 +826,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 342439621}
+      - m_Target: {fileID: 280412381}
         m_TargetAssemblyTypeName: BuildingSystem, Assembly-CSharp
         m_MethodName: StartBuild
         m_Mode: 1
@@ -882,6 +906,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -950,6 +982,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1029,6 +1069,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1178,6 +1226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -1283,6 +1339,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -1351,6 +1415,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1421,6 +1493,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -1489,6 +1569,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1574,6 +1662,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -1643,6 +1739,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -1711,6 +1815,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1788,11 +1900,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 156264453250702934, guid: a6846b7ed6f9790418cd71d4cc30b2e5, type: 3}
   m_PrefabInstance: {fileID: 274499146}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &178721803 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-  m_PrefabInstance: {fileID: 1340735249}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &182026402 stripped
 Transform:
@@ -2041,6 +2148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2109,6 +2224,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2237,6 +2360,10 @@ PrefabInstance:
       value: tile (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -2264,6 +2391,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2333,6 +2468,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2423,6 +2566,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2492,6 +2643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2560,6 +2719,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2724,6 +2891,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2862,6 +3037,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2936,6 +3119,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -2993,6 +3184,62 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+--- !u!1 &280412380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280412382}
+  - component: {fileID: 280412381}
+  m_Layer: 0
+  m_Name: BuildingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &280412381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280412380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0914771f00326aa4c8f35ef07cff5279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  building:
+  - {fileID: 2905131071179538936, guid: 33eb7c562867b1144a8af0c19c1a4366, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 9057146650436836327, guid: 065b7ef838c70c645a137565005b5867, type: 3}
+--- !u!4 &280412382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280412380}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &282199372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
@@ -3009,6 +3256,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -3163,6 +3418,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -3316,6 +3579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -3389,6 +3660,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -3586,6 +3865,10 @@ PrefabInstance:
       value: tile (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -3613,6 +3896,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -3683,6 +3974,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -3751,6 +4050,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -3826,7 +4133,6 @@ GameObject:
   - component: {fileID: 342439619}
   - component: {fileID: 342439618}
   - component: {fileID: 342439617}
-  - component: {fileID: 342439621}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3918,21 +4224,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &342439621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342439616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0914771f00326aa4c8f35ef07cff5279, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  building:
-  - {fileID: 2905131071179538936, guid: 33eb7c562867b1144a8af0c19c1a4366, type: 3}
-  - {fileID: 1993345162116603270, guid: 537d3f4bc1068424585cadce1a07201f, type: 3}
 --- !u!4 &342665717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
@@ -4034,6 +4325,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -4107,6 +4406,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4230,6 +4537,10 @@ PrefabInstance:
       value: tile (7)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -4282,6 +4593,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4351,6 +4670,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4525,6 +4852,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -4593,6 +4928,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4737,6 +5080,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -4805,6 +5156,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4875,6 +5234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -4943,6 +5310,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5013,6 +5388,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5081,6 +5464,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5230,6 +5621,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5373,6 +5772,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5442,6 +5849,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5510,6 +5925,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5595,6 +6018,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5664,6 +6095,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -5732,6 +6171,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5855,6 +6302,10 @@ PrefabInstance:
       value: tile (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -5892,6 +6343,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5961,6 +6420,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6234,7 +6701,6 @@ Transform:
   - {fileID: 1916134619}
   - {fileID: 2132695258}
   - {fileID: 1082416187}
-  - {fileID: 178721803}
   - {fileID: 1615703398}
   m_Father: {fileID: 1089464651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6318,6 +6784,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6457,6 +6931,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -6530,6 +7012,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6639,6 +7129,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6762,6 +7260,10 @@ PrefabInstance:
       value: tile (10)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -6841,6 +7343,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_Name
       value: tile (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
@@ -6945,6 +7451,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -7014,6 +7528,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -7082,6 +7604,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -7590,6 +8120,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -7821,6 +8359,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8126,6 +8672,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -8194,6 +8748,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8268,6 +8830,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8417,6 +8987,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -8491,6 +9069,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -8564,6 +9150,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8716,6 +9310,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -8785,6 +9387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -8853,6 +9463,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8996,6 +9614,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9145,6 +9771,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -9218,6 +9852,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9372,6 +10014,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -9515,6 +10165,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -9589,6 +10247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -9662,6 +10328,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9865,7 +10539,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 23
+    m_Bits: 87
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -9928,6 +10602,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -10113,6 +10795,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -10191,6 +10881,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -10330,6 +11028,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -10399,6 +11105,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -10467,6 +11181,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -10598,6 +11320,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_Name
       value: tile (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
@@ -10821,7 +11547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tower2
+  m_text: House
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10915,6 +11641,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -10983,6 +11717,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11057,6 +11799,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11315,6 +12065,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -11383,6 +12141,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11488,6 +12254,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11626,6 +12400,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11770,6 +12552,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -11838,6 +12628,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11928,6 +12726,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -12006,6 +12812,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -12242,6 +13056,10 @@ PrefabInstance:
       value: tile 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -12274,6 +13092,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -12344,6 +13170,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -12412,6 +13246,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -12486,6 +13328,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -12633,6 +13483,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -12733,6 +13591,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -12806,6 +13672,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -12881,6 +13755,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -12949,6 +13831,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -13098,6 +13988,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13166,6 +14064,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -13236,6 +14142,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13304,6 +14218,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -13394,6 +14316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13473,6 +14403,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13542,6 +14480,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13610,6 +14556,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -13685,6 +14639,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13759,6 +14721,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -13816,75 +14786,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
---- !u!1001 &1340735249
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 616684483}
-    m_Modifications:
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389665299706897679, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1730162457768837045, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
-      propertyPath: m_Name
-      value: Isl_10_House_1 Variant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 96f4dcd1e5bd7104c8e5391dbcc21379, type: 3}
 --- !u!4 &1341863764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
@@ -13901,6 +14802,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14024,6 +14933,10 @@ PrefabInstance:
       value: tile (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -14086,6 +14999,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14225,6 +15146,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -14357,6 +15286,10 @@ PrefabInstance:
       value: tile
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -14384,6 +15317,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14591,6 +15532,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14871,6 +15820,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -14945,6 +15902,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -15013,6 +15978,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15141,6 +16114,10 @@ PrefabInstance:
       value: tile (13)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -15240,6 +16217,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15345,6 +16330,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15467,6 +16460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -15535,6 +16536,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15704,6 +16713,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -15773,6 +16790,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -15841,6 +16866,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15990,6 +17023,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -16133,6 +17174,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -16271,6 +17320,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -16349,6 +17406,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -16476,6 +17541,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -16544,6 +17617,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -16744,6 +17825,10 @@ PrefabInstance:
       value: tile (11)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -16766,6 +17851,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -16840,6 +17933,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -16924,6 +18025,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17020,6 +18129,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17093,6 +18210,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17252,6 +18377,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17320,6 +18453,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17474,6 +18615,10 @@ PrefabInstance:
       value: tile (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CanBuild
       objectReference: {fileID: 0}
@@ -17496,6 +18641,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17571,6 +18724,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17640,6 +18801,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17708,6 +18877,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17809,6 +18986,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17883,6 +19068,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -17952,6 +19145,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -18020,6 +19221,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -18121,6 +19330,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -18190,6 +19407,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09567
@@ -18258,6 +19483,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -18343,6 +19576,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -18411,6 +19652,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -18539,6 +19788,10 @@ PrefabInstance:
       value: tile (8)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4fef8785b7ab4b40b57099058d94ec2, type: 3}
       propertyPath: m_TagString
       value: CantBuild
       objectReference: {fileID: 0}
@@ -18634,7 +19887,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 342439621}
+      - m_Target: {fileID: 280412381}
         m_TargetAssemblyTypeName: BuildingSystem, Assembly-CSharp
         m_MethodName: StartBuild
         m_Mode: 1
@@ -18658,7 +19911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 348190151c019bd4fbbd419f763b190b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonID: 1
+  buttonID: 10
 --- !u!114 &1780523871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18814,6 +20067,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -18887,6 +20148,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -18992,6 +20261,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -19229,6 +20506,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -19418,6 +20703,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -19506,6 +20799,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -19612,6 +20913,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -19680,6 +20989,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -19791,6 +21108,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -19859,6 +21184,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -19934,6 +21267,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -20007,6 +21348,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -20113,6 +21462,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -20207,6 +21564,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -20408,6 +21773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -20482,6 +21855,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -20550,6 +21931,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -20692,6 +22081,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -20760,6 +22157,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -20906,6 +22311,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (170)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -21076,6 +22489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -21155,6 +22576,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -21233,6 +22662,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CantBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -21318,6 +22755,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -21386,6 +22831,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -21461,6 +22914,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
+      objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.09
@@ -21529,6 +22990,14 @@ PrefabInstance:
     - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_Name
       value: Isl_4_Base_1 Variant (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636072811158386964, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
+      propertyPath: m_TagString
+      value: CanBuild
       objectReference: {fileID: 0}
     - target: {fileID: 5412608789247517614, guid: 0b5ca57565a31144b9cd1f1fe77611a0, type: 3}
       propertyPath: m_LocalScale.x
@@ -21678,3 +23147,4 @@ SceneRoots:
   - {fileID: 634554074}
   - {fileID: 342439620}
   - {fileID: 722840321}
+  - {fileID: 280412382}
