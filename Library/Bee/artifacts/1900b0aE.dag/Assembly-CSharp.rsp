@@ -360,6 +360,9 @@
 "Assets/Scripts/BuildingSystem.cs"
 "Assets/Scripts/ButtonID.cs"
 "Assets/Scripts/CameraMove.cs"
+"Assets/Scripts/EnemyMove.cs"
+"Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/RotationChanger.cs"
 -langversion:9.0
 /deterministic
 /optimize+

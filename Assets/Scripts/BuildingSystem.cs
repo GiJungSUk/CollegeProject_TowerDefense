@@ -21,12 +21,19 @@ public class BuildingSystem : MonoBehaviour
         {
             if (building[i] != null)
                 building_Objcet.Add(Instantiate(building[i], originalPos, Quaternion.identity));
+            else
+            {
+                building_Objcet.Add(null);
+            }
+               
         }
     }
     void Update()
     {
        BuildSystem();
+       RotationChange();
     }
+
     private void BuildSystem()
     {
         if (startBuild)
@@ -58,7 +65,7 @@ public class BuildingSystem : MonoBehaviour
                                 collider.tag = "CantBuild";
                             }
                         }
-                        Instantiate(building[selectedButtonID], buildPos , Quaternion.identity);
+                        Instantiate(building[selectedButtonID], buildPos , building_Objcet[selectedButtonID].transform.rotation);
                         startBuild = false;
                         building_Objcet[selectedButtonID].transform.position = originalPos; 
                     }
@@ -117,14 +124,20 @@ public class BuildingSystem : MonoBehaviour
        
     }
 
+    private void RotationChange()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            print("회전");
+            building_Objcet[selectedButtonID].transform.eulerAngles = new Vector3(0, building_Objcet[selectedButtonID].transform.eulerAngles.y + 90, 0); 
+        }
+    }
+
     public void StartBuild()
     {
         for (int i = 0; i < building.Length; i++) // 만약 타워1을 하다가 2를 누르면 그 이전꺼를 다시 원래대로 돌림
             if (building[i] != null)
                 building_Objcet[i].transform.position = originalPos;
-    
         startBuild = true;
     }
-
-    
 }
