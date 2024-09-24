@@ -15,7 +15,6 @@ public class RotationChanger : MonoBehaviour
         foreach(Collider col in hit)
         {
             col.transform.eulerAngles = new Vector3(0, rotation , 0);
-            print(hit);
         }
 
     }
