@@ -940,6 +940,7 @@ GameObject:
   - component: {fileID: 6715878843762549602}
   - component: {fileID: 3550859702689231952}
   - component: {fileID: 6609548641788621150}
+  - component: {fileID: -7059012051038052012}
   - component: {fileID: 1132275046091844469}
   m_Layer: 7
   m_Name: Wolf
@@ -999,6 +1000,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+--- !u!114 &-7059012051038052012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2562235166609405002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995d8050691f8f748bef6d79f736b3ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
 --- !u!65 &1132275046091844469
 BoxCollider:
   m_ObjectHideFlags: 0

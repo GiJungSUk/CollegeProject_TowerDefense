@@ -86,8 +86,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de53ba51b35396429907141a64fcf7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 5
-  attackTime: 1
+  attackDamage: 20
+  attackTime: 0.5
   bulletSpeed: 5
   bulletPrefabs: {fileID: 2549596347564321559, guid: 0f411c3b1c2ead9429cdad0f8e60587d, type: 3}
   firePos: {fileID: 5309013095153970731}

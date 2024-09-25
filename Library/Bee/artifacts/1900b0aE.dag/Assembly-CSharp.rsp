@@ -363,6 +363,7 @@
 "Assets/Scripts/CameraMove.cs"
 "Assets/Scripts/EnemyMove.cs"
 "Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/HpSystem.cs"
 "Assets/Scripts/RotationChanger.cs"
 "Assets/Scripts/TowerAttack.cs"
 -langversion:9.0
