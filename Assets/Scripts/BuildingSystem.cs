@@ -27,6 +27,8 @@ public class BuildingSystem : MonoBehaviour
             }
                
         }
+
+        building_Objcet[0].GetComponent<TowerAttack>().enabled = false;
     }
     void Update()
     {
@@ -41,13 +43,14 @@ public class BuildingSystem : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit , 100f ,1 << 6))
             {
+                Debug.Log(hit.collider.name);
                 bool canBuild;
                 Vector3 buildPos = new Vector3(hit.collider.transform.position.x, 0.1f, hit.collider.transform.position.z); //건설할 위치
                 Collider[] hitcollider = Physics.OverlapSphere(hit.collider.transform.position, 1f, 1 << 6);
 
-                canBuild = JudgeBuild(hit , hitcollider);
+                canBuild = JudgeBuild(hit , hitcollider); // 건설 가능여부 확인 
 
                 if (canBuild) // 건설 가능일 때
                 {
@@ -84,7 +87,13 @@ public class BuildingSystem : MonoBehaviour
     {
         bool returnFlag = false;
 
-        if(selectedButtonID >= 10) // 10 이상이면 대형 건물
+        if (hit.collider.name.Contains("tile") && (selectedButtonID != 0)) // 타워설치타일인데 타워가 아닐경우 설치 불가
+            return returnFlag;
+        
+        if(!hit.collider.name.Contains("tile") && (selectedButtonID == 0)) // 타워설치치타일이 아닌데 타워일 경우 설치 불가
+            return returnFlag;
+
+        if (selectedButtonID >= 10) // 10 이상이면 대형 건물
         {
             foreach (Collider collider in hitcollider)
             {

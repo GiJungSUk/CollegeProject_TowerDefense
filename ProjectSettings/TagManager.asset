@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CanBuild
   - CantBuild
+  - Object
   layers:
   - Default
   - TransparentFX
