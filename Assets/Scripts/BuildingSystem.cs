@@ -45,7 +45,6 @@ public class BuildingSystem : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit , 100f ,1 << 6))
             {
-                Debug.Log(hit.collider.name);
                 bool canBuild;
                 Vector3 buildPos = new Vector3(hit.collider.transform.position.x, 0.1f, hit.collider.transform.position.z); //건설할 위치
                 Collider[] hitcollider = Physics.OverlapSphere(hit.collider.transform.position, 1f, 1 << 6);
@@ -68,8 +67,9 @@ public class BuildingSystem : MonoBehaviour
                                 collider.tag = "CantBuild";
                             }
                         }
-                        Instantiate(building[selectedButtonID], buildPos , building_Objcet[selectedButtonID].transform.rotation);
-                        startBuild = false;
+                        GameObject building_Instant = Instantiate(building[selectedButtonID], buildPos , building_Objcet[selectedButtonID].transform.rotation);
+                        building_Instant.tag = "Object"; // 태그를 오브젝트로 바꾸는 이유는 건설 미완료 상태에서 건설 시 바텀 팝업을 뜨우지 않기 위해서이다.
+                        startBuild = false; 
                         building_Objcet[selectedButtonID].transform.position = originalPos; 
                     }
                 }

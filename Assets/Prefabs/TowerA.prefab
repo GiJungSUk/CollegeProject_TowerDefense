@@ -42,11 +42,12 @@ GameObject:
   - component: {fileID: 35556042138768500}
   - component: {fileID: 970485164000600010}
   - component: {fileID: 706170598585699766}
+  - component: {fileID: 7673889465190570676}
   - component: {fileID: 1591511546980378259}
   - component: {fileID: -4505616891434457689}
   m_Layer: 0
   m_Name: TowerA
-  m_TagString: Object
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,6 +95,23 @@ MonoBehaviour:
   firePos: {fileID: 5309013095153970731}
   attackRange: 4
   gizmoColor: {r: 0, g: 1, b: 0.22296739, a: 1}
+--- !u!114 &7673889465190570676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2905131071179538936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71064374277ad3e4eac3b1a94446e860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 10
+  level: 1
+  upgradePrice: 20
+  name: TowerA
+  objectPic: {fileID: 0}
 --- !u!23 &1591511546980378259
 MeshRenderer:
   m_ObjectHideFlags: 0

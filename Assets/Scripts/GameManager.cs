@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject bottomPanel;
+    public TextMeshProUGUI upgradePrice;
+    public TextMeshProUGUI recellPrice;
     public Image photo;
     public TextMeshProUGUI name;
     public TextMeshProUGUI level;
+
+    GameObject recentObject;
     
     void Update()
     {
@@ -17,7 +22,6 @@ public class GameManager : MonoBehaviour
         {
             FindObject();
         }
-        
     }
 
     private void FindObject()
@@ -29,8 +33,18 @@ public class GameManager : MonoBehaviour
             if(hit.collider != null && hit.collider.gameObject.tag == "Object")
             {
                 bottomPanel.gameObject.SetActive(true);
-                name.text = hit.collider.gameObject.name;
+
+                ObjectInformation info = hit.collider.GetComponent<ObjectInformation>(); // 대상 정보 가져오기
+                recentObject = hit.collider.gameObject;
+
+                name.text = info.name;
+                level.text = info.level.ToString();
+                upgradePrice.text = info.upgradePrice.ToString();
+                recellPrice.text = (info.price / 2).ToString();
             }
         }
     }
+
+    
+
 }
