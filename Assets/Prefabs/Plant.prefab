@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1799791702591520112}
   - component: {fileID: 4879279914144114485}
   - component: {fileID: 3736280683620369994}
+  - component: {fileID: 7848236311371834885}
   - component: {fileID: 495739027802147938}
   m_Layer: 0
   m_Name: Plant
@@ -84,6 +85,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7848236311371834885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196467004611788068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71064374277ad3e4eac3b1a94446e860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 20
+  level: 1
+  upgradePrice: 50
+  name: Plant
+  objectPic: {fileID: 0}
 --- !u!64 &495739027802147938
 MeshCollider:
   m_ObjectHideFlags: 0

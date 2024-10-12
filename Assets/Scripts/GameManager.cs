@@ -41,10 +41,14 @@ public class GameManager : MonoBehaviour
                 level.text = info.level.ToString();
                 upgradePrice.text = info.upgradePrice.ToString();
                 recellPrice.text = (info.price / 2).ToString();
+                recentObject = info.gameObject;
             }
         }
     }
 
-    
+    public void UpgradeBtnEvent()
+    {
+        recentObject.GetComponent<UpgradeObject>().Upgrade();
+    }
 
 }

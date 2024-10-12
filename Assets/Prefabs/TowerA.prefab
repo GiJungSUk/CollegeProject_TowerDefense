@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35556042138768500}
   - component: {fileID: 970485164000600010}
+  - component: {fileID: 59483444050915115}
   - component: {fileID: 706170598585699766}
   - component: {fileID: 7673889465190570676}
   - component: {fileID: 1591511546980378259}
@@ -76,6 +77,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2905131071179538936}
   m_Mesh: {fileID: -4042027278972468551, guid: ac8d48853efed3940ba6889b8dd7c6f2, type: 3}
+--- !u!114 &59483444050915115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2905131071179538936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b963282b882f894db494408273f745e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeObject: {fileID: 1993345162116603270, guid: 537d3f4bc1068424585cadce1a07201f, type: 3}
 --- !u!114 &706170598585699766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,9 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71064374277ad3e4eac3b1a94446e860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 10
+  price: 100
   level: 1
-  upgradePrice: 20
+  upgradePrice: 200
   name: TowerA
   objectPic: {fileID: 0}
 --- !u!23 &1591511546980378259
