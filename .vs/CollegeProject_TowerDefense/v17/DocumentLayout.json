@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|c:\\unity\\github\\collegeproject_towerdefense\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|c:\\unity\\github\\collegeproject_towerdefense\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\buildingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\animalanimationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animalanimationcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\buttonid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|c:\\unity\\github\\collegeproject_towerdefense\\assets\\scripts\\hpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\hpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,24 +39,12 @@
       "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\buildingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\rotationchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotationchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\assets\\scripts\\buttonid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEA91F4-FF31-8F81-D800-26C25AD221C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +54,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:38:00.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalAnimationControll.cs",
+              "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\AnimalAnimationControll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimalAnimationControll.cs",
+              "ToolTip": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\AnimalAnimationControll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimalAnimationControll.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:58:50.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HpSystem.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\HpSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HpSystem.cs",
@@ -58,12 +91,11 @@
               "RelativeToolTip": "Assets\\Scripts\\HpSystem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:04:02.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T11:04:02.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -71,12 +103,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAwBAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:57:52.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:57:52.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TowerAttack.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\TowerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerAttack.cs",
@@ -88,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
@@ -100,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RotationChanger.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\RotationChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotationChanger.cs",
@@ -112,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "EnemyMove.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\EnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMove.cs",
@@ -124,19 +155,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ButtonID.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\ButtonID.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonID.cs",
               "ToolTip": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\ButtonID.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonID.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:29:18.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CameraMove.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\CameraMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMove.cs",
@@ -148,13 +179,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BuildingSystem.cs",
               "DocumentMoniker": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\BuildingSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuildingSystem.cs",
               "ToolTip": "C:\\Unity\\GitHub\\CollegeProject_TowerDefense\\Assets\\Scripts\\BuildingSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\BuildingSystem.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvykAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:29:18.846Z"
             }

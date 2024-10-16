@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class BuildingSystem : MonoBehaviour
 {
-    public static int selectedButtonID;   // 선택된 버튼의 고유 번호를 저장할 변수 0~9 소형건물 10 ~ 대형건물
+    public static int selectedButtonID;   // 선택된 버튼의 고유 번호를 저장할 변수 0~9 소형건물 0~5 동물 5~10 10~ 대형건물
     [SerializeField]
     GameObject[] building; // 프리펩
     List<GameObject> building_Objcet = new List<GameObject>(); //실제로 생성된 프리펩들
@@ -25,10 +26,17 @@ public class BuildingSystem : MonoBehaviour
             {
                 building_Objcet.Add(null);
             }
-               
+
+        }
+        for (int i = 5; i < 10; i++)
+        {
+            if (building_Objcet[i]?.GetComponent<AnimalAnimationControll>() != null) // 더미 동물 이동 비활성화
+                 building_Objcet[i].GetComponent<AnimalAnimationControll>().enabled = false;
+            if (building_Objcet[i]?.GetComponent<BoxCollider>() != null)
+                building_Objcet[i].GetComponent<BoxCollider>().enabled = false;
         }
 
-        building_Objcet[0].GetComponent<TowerAttack>().enabled = false;
+            building_Objcet[0].GetComponent<TowerAttack>().enabled = false; //더미타워 공격 비활성화
     }
     void Update()
     {
@@ -58,8 +66,12 @@ public class BuildingSystem : MonoBehaviour
 
                     if (Input.GetMouseButtonDown(0)) // 클릭 했을 때 그 자리에 건설
                     {
-                        if(selectedButtonID < 10) // 소형 건물이면 그 자리만 건설불가로 만들고
+                        if(selectedButtonID < 5) // 소형 건물이면 그 자리만 건설불가로 만들고
                             hit.collider.tag = "CantBuild";
+                        else if (selectedButtonID >= 5 && selectedButtonID < 10) // 동물일 경우 그냥 놔두고
+                        {
+
+                        }
                         else // 대형 건물이면 3x3 지형을 건설 불가로 만든다
                         {
                             foreach (Collider collider in hitcollider)
@@ -118,6 +130,10 @@ public class BuildingSystem : MonoBehaviour
 
     private void ChangeMat(GameObject objcet, Color color)
     {
+        if(selectedButtonID >= 5 && selectedButtonID < 10) // 동물일 경우 머테리얼 변경 안함
+        {
+            return;
+        }
         Renderer[] renderer = objcet.GetComponentsInChildren<Renderer>();
 
         foreach(Renderer rend  in renderer)
