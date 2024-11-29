@@ -60,22 +60,49 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DamageText.cs" />
+    <Compile Include="Assets\Scripts\LivestockFarming.cs" />
+    <Compile Include="Assets\Scripts\ChangeNowSlot.cs" />
     <Compile Include="Assets\Scripts\HpSystem.cs" />
+    <Compile Include="Assets\Scripts\Farming.cs" />
+    <Compile Include="Assets\Scripts\TowerInformation.cs" />
+    <Compile Include="Assets\ExteriorAssets\Lana Studio\Casual RPG VFX\Demo\Scripts\_InputKeyBoard.cs" />
     <Compile Include="Assets\Scripts\RotationChanger.cs" />
+    <Compile Include="Assets\Scripts\ShopProductInfo.cs" />
     <Compile Include="Assets\Scripts\ButtonID.cs" />
+    <Compile Include="Assets\Scripts\UpgradeTower.cs" />
+    <Compile Include="Assets\ExteriorAssets\Lana Studio\Casual RPG VFX\Scripts\UVscroll.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\ShopOnEble.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\SetButtonVisible.cs" />
+    <Compile Include="Assets\Scripts\ButtonVisibleChange.cs" />
+    <Compile Include="Assets\Scripts\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\BuildingSystem.cs" />
+    <Compile Include="Assets\Scripts\Chicken.cs" />
     <Compile Include="Assets\Scripts\TowerAttack.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\SliderValueChanged.cs" />
+    <Compile Include="Assets\Scripts\Sheep.cs" />
+    <Compile Include="Assets\Scripts\AnimalInformation.cs" />
+    <Compile Include="Assets\Scripts\ChangeSeedState.cs" />
+    <Compile Include="Assets\Scripts\LookatCamera.cs" />
+    <Compile Include="Assets\Scripts\SetEventCamera.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\PlantsInformation.cs" />
     <Compile Include="Assets\Scripts\AnimalAnimationControll.cs" />
     <Compile Include="Assets\Scripts\AnimalCreator.cs" />
+    <Compile Include="Assets\Scripts\TowerDoubleAttack.cs" />
     <Compile Include="Assets\Scripts\ObjectInformation.cs" />
     <Compile Include="Assets\Scripts\UpgradeObject.cs" />
+    <Compile Include="Assets\ExteriorAssets\Lana Studio\Casual RPG VFX\Demo\Scripts\ObjectsSwitcher.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\UIButtonPopup.cs" />
+    <Compile Include="Assets\Scripts\SaveSlot.cs" />
+    <Compile Include="Assets\Scripts\DataManager.cs" />
+    <Compile Include="Assets\Scripts\Cow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -89,12 +116,15 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ExteriorAssets\Free Stylized Skybox\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\ExteriorAssets\kenney_towerDefense\License.txt" />
+    <None Include="Assets\ExteriorAssets\SimpleSky\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ExteriorAssets\Lana Studio\Casual RPG VFX\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

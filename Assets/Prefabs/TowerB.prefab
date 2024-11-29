@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 5613832623650612890}
   - component: {fileID: -1833787608697132802}
   - component: {fileID: -3883364712946863777}
-  - component: {fileID: 5534144179029518920}
+  - component: {fileID: 226723521670649334}
   m_Layer: 0
   m_Name: TowerB
   m_TagString: Object
@@ -254,14 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de53ba51b35396429907141a64fcf7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 50
-  attackTime: 1
-  bulletSpeed: 3
-  bulletPrefabs: {fileID: 2549596347564321559, guid: 0f411c3b1c2ead9429cdad0f8e60587d, type: 3}
-  firePos: {fileID: 1812184853754401525}
-  attackRange: 4
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &5534144179029518920
+--- !u!114 &226723521670649334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,14 +264,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993345162116603270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71064374277ad3e4eac3b1a94446e860, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b4cf47abaa9c4745961c379beabea2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 300
+  price: 200
   level: 2
-  upgradePrice: 500
+  upgradePrice: 300
   name: TowerB
   objectPic: {fileID: 0}
+  type: 0
+  time: 0
+  attackDamage: 30
+  attackTime: 0.3
+  bulletSpeed: 3.5
+  bulletPrefabs: {fileID: 4587242869702136915, guid: c8887ce4c9f45374eba70d2f5a8ccd43, type: 3}
+  firePos: {fileID: 1812184853754401525}
+  attackRange: 3.5
 --- !u!1 &2911175872688104040
 GameObject:
   m_ObjectHideFlags: 0

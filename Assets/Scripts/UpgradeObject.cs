@@ -6,10 +6,30 @@ public class UpgradeObject : MonoBehaviour
 {
     [SerializeField]
     GameObject upgradeObject;
+    [SerializeField]
+    GameObject upgradeEffect;
 
-    public void Upgrade()
+    ObjectInformation obj;
+    UIManager uiManager;
+
+    private void Start()
     {
-        Destroy(gameObject);
-        Instantiate(upgradeObject , gameObject.transform.position , Quaternion.identity);
+        uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+        obj = GetComponent<ObjectInformation>();
+    }
+    public void Evolve()
+    {
+        if(upgradeObject != null && obj.level == 10)
+        {
+            Destroy(gameObject);
+            GameObject upgradeObject_ = Instantiate(upgradeObject, gameObject.transform.position, Quaternion.identity);
+            Instantiate(upgradeEffect, gameObject.transform.position, Quaternion.identity);
+            obj.level = 1;
+            uiManager.InputInformation(upgradeObject_);
+        }    
+    }
+
+    public virtual void Upgrade()
+    {
     }
 }

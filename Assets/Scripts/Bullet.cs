@@ -1,13 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [HideInInspector]
     public float bulletSpeed;
+    [HideInInspector]
     public float bulletDamage;
+    [HideInInspector]
     public GameObject target;
+
+    public GameObject hitEffact;
+    public GameObject damageFont;
+    public Color textColor;
+
+
 
     void FixedUpdate()
     {
@@ -19,10 +29,6 @@ public class Bullet : MonoBehaviour
             
         BulletMove();
         BulletDamaged();
-    }
-    private void Update()
-    {
-        
     }
 
     private void BulletMove()
@@ -40,6 +46,9 @@ public class Bullet : MonoBehaviour
             if (enemy != null)
             {
                 enemy.GetComponent<HpSystem>().Hp -= bulletDamage;
+                Instantiate(hitEffact , gameObject.transform.position , Quaternion.identity);
+                GameObject damageFontObj = Instantiate(damageFont, gameObject.transform.position, Quaternion.identity);
+                damageFontObj.GetComponentInChildren<TextMeshProUGUI>().text = bulletDamage.ToString();
                 Destroy(gameObject);
             }
         }

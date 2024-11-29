@@ -4,34 +4,43 @@ using UnityEngine;
 
 public class TowerAttack : MonoBehaviour
 {
-
-    [SerializeField]
-    private float attackDamage = 5f;
-    [SerializeField]
-    private float attackTime = 1f;
-    [SerializeField]
-    private float bulletSpeed = 3f;
-    [SerializeField]
-    private GameObject bulletPrefabs;
-    [SerializeField]
-    private Transform firePos;
-    [SerializeField]
-    private float attackRange = 2f;
-
-    float curruntTime = 0f;
+    [HideInInspector]
+    public float attackDamage;
+    [HideInInspector]
+    public float attackTime;
+    [HideInInspector]
+    public float bulletSpeed;
+    [HideInInspector]
+    public Transform firePos;
+    [HideInInspector]
+    public float attackRange;
+    public GameObject bulletPrefabs;
+    [HideInInspector]
+    public float curruntTime = 0f;
     public Color gizmoColor = Color.red;
+
+    [SerializeField]
+    bool lookAtFlag = false;
+
+    private TowerInformation towerInfo;
     void Start()
     {
-        
+        towerInfo = GetComponent<TowerInformation>();
+        attackDamage = towerInfo.attackDamage;
+        attackTime = towerInfo.attackTime;
+        attackRange = towerInfo.attackRange;
+        bulletSpeed = towerInfo.bulletSpeed;
+        bulletPrefabs = towerInfo.bulletPrefabs;
+        firePos = towerInfo.firePos;
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        CreateBullet(FindEnemy());
+        CreateBullet(FindEnemy() , firePos);
     }
 
-    private GameObject FindEnemy()
+    public GameObject FindEnemy()
     {
         Collider[] col = Physics.OverlapSphere(gameObject.transform.position, attackRange , 1 << 7);
         GameObject shortestEnemy = null;
@@ -46,6 +55,9 @@ public class TowerAttack : MonoBehaviour
                 {
                     shortestDistance = distance;
                     shortestEnemy = enemy.gameObject;
+
+                    if(lookAtFlag)
+                    transform.LookAt(shortestEnemy.transform);
                     
                 }
             }
@@ -53,7 +65,7 @@ public class TowerAttack : MonoBehaviour
         return shortestEnemy;
     }
 
-    private void CreateBullet(GameObject target)
+    public void CreateBullet(GameObject target , Transform firePos)
     {
         curruntTime += Time.deltaTime;
        
@@ -61,7 +73,7 @@ public class TowerAttack : MonoBehaviour
         {
             if (target != null)
             {
-                GameObject bullet = Instantiate(bulletPrefabs, firePos.position , Quaternion.identity);
+                GameObject bullet = Instantiate(bulletPrefabs, firePos.position , Quaternion.identity);   
                 Bullet bulletScript = bullet.GetComponent<Bullet>();
 
                 bulletScript.bulletDamage = attackDamage;
@@ -73,7 +85,7 @@ public class TowerAttack : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    public void OnDrawGizmos()
     {
         Gizmos.color = gizmoColor;
         Gizmos.DrawWireSphere(transform.position, attackRange);

@@ -5,16 +5,21 @@ using UnityEngine.UI;
 
 public class ObjectInformation : MonoBehaviour
 {
+    public enum Type
+    {
+        Tower,
+        Animal,
+        Building,
+        Plant
+    }
 
-    [SerializeField]
     public int price;
-    [SerializeField]
     public int level;
-    [SerializeField]
     public int upgradePrice;
-    [SerializeField]
     public string name;
-    [SerializeField]
     public Image objectPic;
+    public Type type;
+    [HideInInspector]
+    public float time = 0f;
 
 }
