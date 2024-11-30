@@ -11,7 +11,7 @@ public class ShopManager : MonoBehaviour
     //내가 가지고있는 자산 text
     public TextMeshProUGUI tomatoText;
     public TextMeshProUGUI pumpkinText;
-    public TextMeshProUGUI beatText;
+    public TextMeshProUGUI beetText;
     public TextMeshProUGUI wheatText;
     public TextMeshProUGUI carrotText;
     public TextMeshProUGUI woolText;
@@ -84,7 +84,8 @@ public class ShopManager : MonoBehaviour
         {
             foreach (Button button in sellingButtons)
             {
-                button.onClick.AddListener(() => UpdateOrderTap(sellingImage,sellingNameText,sellingPriceText,sellingSlider,maxSellingValueText));
+                button.onClick.AddListener(() => UpdateOrderTap(sellingImage,sellingNameText,sellingPriceText,sellingSlider));
+                button.onClick.AddListener(() => SellingMaxValueChange(sellingSlider, maxSellingValueText));
             }
         }
 
@@ -92,7 +93,8 @@ public class ShopManager : MonoBehaviour
         {
             foreach(Button button in purchaseButtons)
             {
-                button.onClick.AddListener(() => UpdateOrderTap(purchaseImage,purchaseNameText,purchasePriceText,purchaseSlider,maxPurchaseValueText));
+                button.onClick.AddListener(() => UpdateOrderTap(purchaseImage,purchaseNameText,purchasePriceText,purchaseSlider)); 
+                button.onClick.AddListener(() => PurchaseMaxValueChange(purchaseSlider, maxPurchaseValueText));
             }
         }
 
@@ -104,14 +106,26 @@ public class ShopManager : MonoBehaviour
 
     }
 
-    public void UpdateOrderTap(Image image , TextMeshProUGUI nameText, TextMeshProUGUI priceText , Slider slider , TextMeshProUGUI maxValueText)
+    public void UpdateOrderTap(Image image , TextMeshProUGUI nameText, TextMeshProUGUI priceText , Slider slider)
     {
         image.sprite = currentimage;
         nameText.text = currentName;
         priceText.text = currentPrice.ToString();
 
-        //slider.maxValue = (int)(data.money / curruntPrice);
-        //maxValueText.text = slider.maxValue.ToString();
+       
+    }
+
+    private void PurchaseMaxValueChange(Slider slider, TextMeshProUGUI maxValueText)
+    {
+        slider.maxValue = (int)(data.money / currentPrice);
+        maxValueText.text = slider.maxValue.ToString();
+    }
+
+    private void SellingMaxValueChange(Slider slider, TextMeshProUGUI maxValueText)
+    {
+        TextMeshProUGUI text = (TextMeshProUGUI)GetType().GetField(currentName + "Text").GetValue(this);
+        maxValueText.text = text.text;
+        slider.maxValue = int.Parse(maxValueText.text);
     }
 
     public void UpdateProduct()
@@ -120,7 +134,7 @@ public class ShopManager : MonoBehaviour
 
         tomatoText.text = data.tomato.ToString();
         pumpkinText.text = data.pumpkin.ToString();
-        beatText.text = data.beet.ToString();
+        beetText.text = data.beet.ToString();
         wheatText.text = data.wheat.ToString();
         carrotText.text = data.carrot.ToString();
         woolText.text = data.wool.ToString();
@@ -155,17 +169,30 @@ public class ShopManager : MonoBehaviour
             }
         }
 
-        //Action 변수에 실행할 함수를 미리 담아놓는다
-        order += () =>
+        if(pulma == 1) // 판매일때만 작동하도록 하자
         {
-            int value = (int)Type.GetType("PlayerData").GetField(currentName).GetValue(data);
-            Type.GetType("PlayerData").GetField(currentName).SetValue(data, (int)(value + pulma * slider.value));
-        };
+            TextMeshProUGUI productText = (TextMeshProUGUI)GetType().GetField(currentName + "Text").GetValue(this);
+            productText.text = (int.Parse(productText.text) - (int)slider.value).ToString(); // 판매할 재료의 텍스트값과 판매할양을 뺀 값으로 바꿈
+                                                                                             // << 소지이상으로 판매할수 없도록하는 장치
+        }
 
-        Debug.Log((int)Type.GetType("PlayerData").GetField(currentName).GetValue(data));
+
+
+
+        int count = (int)slider.value;
+        //Action 변수에 실행할 함수를 미리 담아놓는다
+        order += ()  => InsertAction(count , pulma);
+
+        
 
         orderList.Add(orderObjects);
         slider.value = 0;
+    }
+
+    private void InsertAction(int count, int pulma)
+    {
+        int value = (int)Type.GetType("PlayerData").GetField(currentName).GetValue(data);
+        Type.GetType("PlayerData").GetField(currentName).SetValue(data, value + -pulma * count); // 개수는 돈과 반대로 감소하면 증가하고 증가하면 감소함
     }
 
     public void CancelOrder()
@@ -176,11 +203,11 @@ public class ShopManager : MonoBehaviour
             total = 0;
             totalText.text = "0";
         }
+        order = null;
+        UpdateProduct();
     }
 
-    public void CheckObject()
-    {
-    }
+ 
 
     public void ConfirmOrder()
     {

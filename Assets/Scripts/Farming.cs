@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static Farming;
-
 
 
 public class Farming : MonoBehaviour
@@ -189,6 +187,7 @@ public class Farming : MonoBehaviour
             sowIcon.SetActive(false);
             state = cropsState.Seed;
         }
+
         uiManager.InputInformation(gameObject); // UI 업데이트
     }
     public void Wartering()

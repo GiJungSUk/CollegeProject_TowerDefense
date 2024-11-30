@@ -47,7 +47,7 @@ public class UIManager : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
             FindObject();
         }
@@ -83,55 +83,58 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    private void checkObjectInfo(ObjectInformation.Type type , GameObject gameObject)
+    private void checkObjectInfo(ObjectInformation.Type type, GameObject gameObject)
     {
         allPanelSet(false);
 
         switch (type)
         {
-            case ObjectInformation.Type.Animal: animalPanel.SetActive(true);
+            case ObjectInformation.Type.Animal:
+                animalPanel.SetActive(true);
                 AnimalInformation aniInfo = gameObject.GetComponent<AnimalInformation>();
                 if (aniInfo.feed) feedText.text = "O"; else feedText.text = "X";
                 StopAllCoroutines();
                 StartCoroutine(UpdateRemainTime(remainAnimalTimeText, aniInfo));
 
                 break;
-            case ObjectInformation.Type.Tower: towerPanel.SetActive(true); 
+            case ObjectInformation.Type.Tower:
+                towerPanel.SetActive(true);
                 TowerInformation towerInfo = gameObject.GetComponent<TowerInformation>();
                 AttackDamageText.text = towerInfo.attackDamage.ToString();
                 AttackSpeedText.text = towerInfo.attackTime.ToString();
                 AttackRangeText.text = towerInfo.attackRange.ToString();
-                
+
                 break;
-            case ObjectInformation.Type.Plant: plantPanel.SetActive(true);
+            case ObjectInformation.Type.Plant:
+                plantPanel.SetActive(true);
                 PlantsInformation plantInfo = gameObject.GetComponent<PlantsInformation>();
                 seedNmaeText.text = plantInfo.seedName;
                 StopAllCoroutines();
                 StartCoroutine(UpdateRemainTime(remainCropsTimeText, plantInfo));
                 break;
-            case ObjectInformation.Type.Building:  break;
+            case ObjectInformation.Type.Building: break;
         }
     }
 
-    private IEnumerator UpdateRemainTime(TextMeshProUGUI text , ObjectInformation obj)
+    private IEnumerator UpdateRemainTime(TextMeshProUGUI text, ObjectInformation obj)
     {
         if (obj.time < 0)
             text.text = "0";
 
         while (obj.time >= 0)
         {
-            text.text = obj.time.ToString("0");           
+            text.text = obj.time.ToString("0");
             yield return new WaitForSeconds(1f); // 1초 간격으로 업데이트
         }
     }
 
-     private void allPanelSet(bool flag)
-     {
-         animalPanel.SetActive(flag);
-         towerPanel.SetActive(flag);
-         plantPanel.SetActive(flag);
-     }
+    private void allPanelSet(bool flag)
+    {
+        animalPanel.SetActive(flag);
+        towerPanel.SetActive(flag);
+        plantPanel.SetActive(flag);
+    }
 
-    
+
 
 }
