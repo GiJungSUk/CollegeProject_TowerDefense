@@ -164,9 +164,6 @@ public class Farming : MonoBehaviour
             case "pumpkin": DataManager.instance.playerData.pumpkin += harvestCount; ; break;
             default: break;
         }
-
-        print(DataManager.instance.playerData.tomato);
-
         harvestIcon.SetActive(false);
         state = cropsState.None;
         plantsInformation.sowed = false;

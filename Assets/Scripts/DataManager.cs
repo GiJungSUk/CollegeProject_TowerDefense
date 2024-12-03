@@ -33,6 +33,7 @@ public class PlayerData
 
     public List<Vector3> objectPosition = new List<Vector3>(); 
     public List<string> objectName = new List<string>();
+    public List<int> objectLevel = new List<int>();
 }
 
 public class DataManager : MonoBehaviour
@@ -64,6 +65,7 @@ public class DataManager : MonoBehaviour
     public void SaveData()
     {
         SavePosition();
+        GameManager.Instance.sceneLoaded = true;
 
         string data = JsonUtility.ToJson(playerData);
         File.WriteAllText(path + nowSlot.ToString(), data );
@@ -79,6 +81,7 @@ public class DataManager : MonoBehaviour
             {
                 playerData.objectPosition.Add(collider.gameObject.transform.position);
                 playerData.objectName.Add(collider.gameObject.GetComponent<ObjectInformation>().name);
+                playerData.objectLevel.Add(collider.gameObject.GetComponent<ObjectInformation>().level);
             }
         }
        

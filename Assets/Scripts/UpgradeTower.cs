@@ -14,6 +14,13 @@ public class UpgradeTower : UpgradeObject
         towerInfo = GetComponent<TowerInformation>();
         towerAttack = GetComponent<TowerAttack>();
     }
+
+    private void Start()
+    {
+            towerInfo.attackDamage += 4 * (towerInfo.level -1);
+            towerInfo.attackRange += 0.6f * (towerInfo.level - 1);
+            towerInfo.attackTime -= 0.02f * (towerInfo.level - 1);
+    }
     public override void Upgrade()
     {
         if(DataManager.instance.playerData.money >= towerInfo.upgradePrice )

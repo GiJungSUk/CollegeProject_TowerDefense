@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance = null;
 
+    public bool sceneLoaded = false;
     public enum SeedState
     {
         tomato,

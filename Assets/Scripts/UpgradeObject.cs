@@ -13,7 +13,7 @@ public class UpgradeObject : MonoBehaviour
     private ObjectInformation obj;
     private UIManager uiManager_;
 
-    private void Start()
+    private void Awake()
     {
         uiManager_ = GameObject.Find("UIManager").GetComponent<UIManager>();
         obj = GetComponent<ObjectInformation>();

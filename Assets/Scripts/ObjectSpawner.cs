@@ -25,6 +25,7 @@ public class ObjectSpawner : MonoBehaviour
             }
 
             ObjectInformation obj = prefab.GetComponent<ObjectInformation>();
+            prefab.tag = "Object";
 
             if (obj.type == ObjectInformation.Type.Building_B)
             {
@@ -44,7 +45,8 @@ public class ObjectSpawner : MonoBehaviour
                     hit.collider.tag = "CantBuild";
                 }
             }
-
+            
+            obj.level = data.objectLevel[i];
 
         }
 

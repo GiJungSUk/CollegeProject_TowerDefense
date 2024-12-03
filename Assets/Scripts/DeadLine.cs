@@ -13,7 +13,7 @@ public class DeadLine : MonoBehaviour
 
     public Slider slider;
     public TextMeshProUGUI hpText;
-
+    public GameObject gameoverPanel;
     private void Awake()
     {
         slider.value = DataManager.instance.playerData.hp;
@@ -29,6 +29,12 @@ public class DeadLine : MonoBehaviour
             slider.value = DataManager.instance.playerData.hp;
             hpText.text = DataManager.instance.playerData.hp.ToString() + " / " + "100" ; 
             Destroy(collider.gameObject);
+
+            if(DataManager.instance.playerData.hp == 0)
+            {
+                gameoverPanel.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
 

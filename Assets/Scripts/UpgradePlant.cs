@@ -12,6 +12,7 @@ public class UpgradePlant : UpgradeObject
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         farming = GetComponent<Farming>();
         plantInfo = GetComponent<PlantsInformation>();
+        farming.harvestCount = plantInfo.level;
     }
 
     public override void Upgrade()
@@ -23,7 +24,7 @@ public class UpgradePlant : UpgradeObject
             plantInfo.upgradePrice += 10;
             
             plantInfo.level += 1;
-            farming.harvestCount += 1;
+            farming.harvestCount = plantInfo.level;
             
             Instantiate(upgradeEffect, gameObject.transform.position, Quaternion.identity);
             uiManager.InputInformation(gameObject);

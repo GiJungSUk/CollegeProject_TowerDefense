@@ -14,6 +14,8 @@ public class UpgradeAnimal : UpgradeObject
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         animalInfo = GetComponent<AnimalInformation>();
         live = GetComponent<LivestockFarming>();
+        
+        live.productTime -= live.productTime * 0.1f * animalInfo.level;
     }
     public override void Upgrade()
     {
