@@ -35,6 +35,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI topStageText;
     public TextMeshProUGUI topNameText;
 
+    public Button recell_btn;
 
     GameObject recentObject;
 
@@ -44,6 +45,7 @@ public class UIManager : MonoBehaviour
         topNameText.text = DataManager.instance.playerData.name;
         topStageText.text = DataManager.instance.playerData.stage.ToString();
 
+        recell_btn.onClick.AddListener(() => RecellBtnEvent());
     }
     void Update()
     {
@@ -62,12 +64,17 @@ public class UIManager : MonoBehaviour
         recellPrice.text = (info.price / 2).ToString();
         checkObjectInfo(info.type, gameObject);
         recentObject = info.gameObject;
+        photo.sprite = info.objectPic;
     }
 
     public void UpgradeBtnEvent()
     {
-        recentObject.GetComponent<UpgradeObject>().Upgrade();
+        recentObject.GetComponent<UpgradeObject>().Evolve();
+    }
 
+    public void RecellBtnEvent()
+    {
+        recentObject.GetComponent<RecellObject>().Recell();
     }
 
     private void FindObject()
@@ -100,9 +107,9 @@ public class UIManager : MonoBehaviour
             case ObjectInformation.Type.Tower:
                 towerPanel.SetActive(true);
                 TowerInformation towerInfo = gameObject.GetComponent<TowerInformation>();
-                AttackDamageText.text = towerInfo.attackDamage.ToString();
-                AttackSpeedText.text = towerInfo.attackTime.ToString();
-                AttackRangeText.text = towerInfo.attackRange.ToString();
+                AttackDamageText.text = towerInfo.attackDamage.ToString("F1");
+                AttackSpeedText.text = towerInfo.attackTime.ToString("F1");
+                AttackRangeText.text = towerInfo.attackRange.ToString("F1");
 
                 break;
             case ObjectInformation.Type.Plant:
@@ -112,7 +119,8 @@ public class UIManager : MonoBehaviour
                 StopAllCoroutines();
                 StartCoroutine(UpdateRemainTime(remainCropsTimeText, plantInfo));
                 break;
-            case ObjectInformation.Type.Building: break;
+            case ObjectInformation.Type.Building_B: break;
+            case ObjectInformation.Type.Building_S: break;
         }
     }
 

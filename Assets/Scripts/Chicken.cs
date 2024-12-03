@@ -15,7 +15,7 @@ public class Chicken : LivestockFarming
 
     public override void GetProduct()
     {
-        base.GetProduct();
-        // 계란을 얻음 코드
+        DataManager.instance.playerData.egg++;
+        print(DataManager.instance.playerData.egg + " 계란 획득");
     }
 }

@@ -15,6 +15,10 @@ public class LivestockFarming : MonoBehaviour
     private float currutHarvestTime = 0f;
     UIManager uiManager;
 
+    [SerializeField]
+    private GameObject feedEffact;
+    [SerializeField]
+    private GameObject harvestEffact;
 
     private void Awake()
     {
@@ -44,7 +48,8 @@ public class LivestockFarming : MonoBehaviour
         currutHarvestTime = 0f;
         aniInfo.canHarvest = false;
         aniInfo.time = 0f;
-
+        Vector3 pos = new Vector3 (gameObject.transform.position.x, 4, gameObject.transform.rotation.z);
+        Instantiate(harvestEffact, pos , Quaternion.identity);
         uiManager.InputInformation(gameObject);
     }
 
@@ -76,14 +81,15 @@ public class LivestockFarming : MonoBehaviour
 
     public void FeedAnimal()
     {
-        if (aniInfo != null)
+        if (aniInfo != null && DataManager.instance.playerData.feed > 0)
         {
             aniInfo.feed = true;
             feedIcon.SetActive(false);
             currutStarveTime = 0f;
             // 동물 먹이 감소 코드
-
+            DataManager.instance.playerData.feed--;
             uiManager.InputInformation(gameObject);
+            Instantiate(feedEffact , gameObject.transform.position , Quaternion.identity);
         }
     }
 }

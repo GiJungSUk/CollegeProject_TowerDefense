@@ -26,18 +26,23 @@ public class TowerAttack : MonoBehaviour
     void Start()
     {
         towerInfo = GetComponent<TowerInformation>();
+        setBulletStats(towerInfo);
+    }
+
+    void Update()
+    {
+        CreateBullet(FindEnemy() , firePos);
+    }
+
+
+    public void setBulletStats(TowerInformation towerInfo)
+    {
         attackDamage = towerInfo.attackDamage;
         attackTime = towerInfo.attackTime;
         attackRange = towerInfo.attackRange;
         bulletSpeed = towerInfo.bulletSpeed;
         bulletPrefabs = towerInfo.bulletPrefabs;
         firePos = towerInfo.firePos;
-
-    }
-
-    void Update()
-    {
-        CreateBullet(FindEnemy() , firePos);
     }
 
     public GameObject FindEnemy()

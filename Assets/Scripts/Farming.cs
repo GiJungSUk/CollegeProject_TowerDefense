@@ -14,7 +14,7 @@ public class Farming : MonoBehaviour
         public GameObject middle_Plants;
         public GameObject plants;
         public int seed;
-
+        
         public seedData(string name , float growingTime, GameObject middle_Plants, GameObject plants , ref int seed)
         {
             this.name = name;
@@ -62,9 +62,15 @@ public class Farming : MonoBehaviour
     [SerializeField]
     private GameObject[] plants;
     [SerializeField]
-    private float[] growingTime;
+    public float[] growingTime;
     [SerializeField]
     private GameObject seed;
+    [SerializeField]
+    private GameObject wetEffact;
+    [SerializeField]
+    private GameObject sowEffact;
+    [SerializeField]
+    private GameObject harvestEffact;
 
     public GameObject waterIcon;
     public GameObject sowIcon;
@@ -81,6 +87,7 @@ public class Farming : MonoBehaviour
     private seedData recentSeedData;
     cropsState state;
 
+    public int harvestCount = 1;
     private void Awake()
     {
         plantsInformation = GetComponent<PlantsInformation>();
@@ -150,11 +157,11 @@ public class Farming : MonoBehaviour
     {
         switch (plantsInformation.seedName)
         {
-            case "tomato": DataManager.instance.playerData.tomato++; break;
-            case "wheat": DataManager.instance.playerData.wheat++ ; break;
-            case "beat": DataManager.instance.playerData.beet++; ; break;
-            case "carrot": DataManager.instance.playerData.carrot++; ; break;
-            case "pumpkin": DataManager.instance.playerData.pumpkin++; ; break;
+            case "tomato": DataManager.instance.playerData.tomato += harvestCount; break;
+            case "wheat": DataManager.instance.playerData.wheat += harvestCount; break;
+            case "beat": DataManager.instance.playerData.beet += harvestCount; ; break;
+            case "carrot": DataManager.instance.playerData.carrot += harvestCount; ; break;
+            case "pumpkin": DataManager.instance.playerData.pumpkin += harvestCount; ; break;
             default: break;
         }
 
@@ -169,7 +176,7 @@ public class Farming : MonoBehaviour
         plantsInformation.time = 0f;
         recentSeedData = null;
         allCropsDestroy();
-
+        Instantiate(harvestEffact, gameObject.transform.position, Quaternion.identity);
 
         uiManager.InputInformation(gameObject); // UI 업데이트
     }
@@ -186,12 +193,14 @@ public class Farming : MonoBehaviour
             Instantiate(seed, gameObject.transform); // 기본 씨앗 오브젝트를 생성
             sowIcon.SetActive(false);
             state = cropsState.Seed;
+            Instantiate(sowEffact, gameObject.transform.position, Quaternion.identity);
         }
 
         uiManager.InputInformation(gameObject); // UI 업데이트
     }
     public void Wartering()
     {
+        Instantiate(wetEffact , gameObject.transform.position , Quaternion.identity);
         plantsInformation.watered = true;
         waterIcon.SetActive(false);
         uiManager.InputInformation(gameObject);

@@ -12,7 +12,7 @@ public class Cow : LivestockFarming
 
     public override void GetProduct()
     {
-        base.GetProduct();
-        //  우유를 얻는 코드
+        DataManager.instance.playerData.milk++;
+        print(DataManager.instance.playerData.milk + " 우유 획득");
     }
 }

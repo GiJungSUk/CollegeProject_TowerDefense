@@ -29,6 +29,7 @@ public class ShopManager : MonoBehaviour
     // purchase part
     public Button[] purchaseButtons;
     public Button purchaseButton;
+    public GameObject purchaseOrderTab;
 
     public Image purchaseImage;
     public TextMeshProUGUI purchaseNameText;
@@ -41,6 +42,7 @@ public class ShopManager : MonoBehaviour
 
     public Button[] sellingButtons;
     public Button sellingButton;
+    public GameObject sellingOrderTab;
 
     public Image sellingImage;
     public TextMeshProUGUI sellingNameText;
@@ -84,7 +86,7 @@ public class ShopManager : MonoBehaviour
         {
             foreach (Button button in sellingButtons)
             {
-                button.onClick.AddListener(() => UpdateOrderTap(sellingImage,sellingNameText,sellingPriceText,sellingSlider));
+                button.onClick.AddListener(() => UpdateOrderTap(sellingImage,sellingNameText,sellingPriceText));
                 button.onClick.AddListener(() => SellingMaxValueChange(sellingSlider, maxSellingValueText));
             }
         }
@@ -93,7 +95,7 @@ public class ShopManager : MonoBehaviour
         {
             foreach(Button button in purchaseButtons)
             {
-                button.onClick.AddListener(() => UpdateOrderTap(purchaseImage,purchaseNameText,purchasePriceText,purchaseSlider)); 
+                button.onClick.AddListener(() => UpdateOrderTap(purchaseImage,purchaseNameText,purchasePriceText)); 
                 button.onClick.AddListener(() => PurchaseMaxValueChange(purchaseSlider, maxPurchaseValueText));
             }
         }
@@ -106,19 +108,21 @@ public class ShopManager : MonoBehaviour
 
     }
 
-    public void UpdateOrderTap(Image image , TextMeshProUGUI nameText, TextMeshProUGUI priceText , Slider slider)
+    public void UpdateOrderTap(Image image , TextMeshProUGUI nameText, TextMeshProUGUI priceText)
     {
         image.sprite = currentimage;
         nameText.text = currentName;
         priceText.text = currentPrice.ToString();
-
-       
     }
 
     private void PurchaseMaxValueChange(Slider slider, TextMeshProUGUI maxValueText)
     {
         slider.maxValue = (int)(data.money / currentPrice);
         maxValueText.text = slider.maxValue.ToString();
+        if(slider.maxValue > 0)
+        {
+            purchaseOrderTab.SetActive(true);
+        }
     }
 
     private void SellingMaxValueChange(Slider slider, TextMeshProUGUI maxValueText)
@@ -126,6 +130,10 @@ public class ShopManager : MonoBehaviour
         TextMeshProUGUI text = (TextMeshProUGUI)GetType().GetField(currentName + "Text").GetValue(this);
         maxValueText.text = text.text;
         slider.maxValue = int.Parse(maxValueText.text);
+        if(slider.maxValue > 0)
+        {
+            sellingOrderTab.SetActive(true);
+        }
     }
 
     public void UpdateProduct()
@@ -180,8 +188,9 @@ public class ShopManager : MonoBehaviour
 
 
         int count = (int)slider.value;
+        string name = currentName;
         //Action 변수에 실행할 함수를 미리 담아놓는다
-        order += ()  => InsertAction(count , pulma);
+        order += ()  => InsertAction(count , pulma , name);
 
         
 
@@ -189,10 +198,10 @@ public class ShopManager : MonoBehaviour
         slider.value = 0;
     }
 
-    private void InsertAction(int count, int pulma)
+    private void InsertAction(int count, int pulma , string name)
     {
-        int value = (int)Type.GetType("PlayerData").GetField(currentName).GetValue(data);
-        Type.GetType("PlayerData").GetField(currentName).SetValue(data, value + -pulma * count); // 개수는 돈과 반대로 감소하면 증가하고 증가하면 감소함
+        int value = (int)Type.GetType("PlayerData").GetField(name).GetValue(data);
+        Type.GetType("PlayerData").GetField(name).SetValue(data, value + -pulma * count); // 개수는 돈과 반대로 감소하면 증가하고 증가하면 감소함
     }
 
     public void CancelOrder()

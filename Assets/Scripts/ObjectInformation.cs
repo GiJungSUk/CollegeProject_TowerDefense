@@ -9,7 +9,8 @@ public class ObjectInformation : MonoBehaviour
     {
         Tower,
         Animal,
-        Building,
+        Building_B,
+        Building_S,
         Plant
     }
 
@@ -17,7 +18,7 @@ public class ObjectInformation : MonoBehaviour
     public int level;
     public int upgradePrice;
     public string name;
-    public Image objectPic;
+    public Sprite objectPic;
     public Type type;
     [HideInInspector]
     public float time = 0f;

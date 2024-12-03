@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class UIButtonPopup : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public GameObject popup;  // 팝업으로 사용할 UI (예: Panel, Text)
+    public GameObject popup;  // 팝업으로 사용할 UI
     private bool isHovering = false;
 
     // 마우스가 버튼 위로 올라갔을 때 호출

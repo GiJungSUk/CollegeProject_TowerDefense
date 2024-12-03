@@ -11,6 +11,11 @@ public class BuildingSystem : MonoBehaviour
     GameObject[] building; // 프리펩
     [SerializeField]
     GameObject[] dummyObject;
+    [SerializeField]
+    GameObject buildEffact_s;
+    [SerializeField]
+    GameObject buildEffact_b;
+
 
     List<GameObject> building_Objcet = new List<GameObject>();
 
@@ -19,7 +24,7 @@ public class BuildingSystem : MonoBehaviour
     bool startBuild = false;
     void Start()
     {
-        originalPos = new Vector3(2, -5, -10);
+        originalPos = new Vector3(2, -10, -10);
 
         for (int i = 0; i < dummyObject.Length; i++)
         {
@@ -59,23 +64,44 @@ public class BuildingSystem : MonoBehaviour
 
                     if (Input.GetMouseButtonDown(0)) // 클릭 했을 때 그 자리에 건설
                     {
-                        if(selectedButtonID < 3) // 소형 건물이면 그 자리만 건설불가로 만들고
-                            hit.collider.tag = "CantBuild";
-                        else if (selectedButtonID >= 3 && selectedButtonID < 10) // 동물일 경우 그냥 놔두고 , fence일 때도 바꾸지 않음
+                        
+                        if (DataManager.instance.playerData.money >=
+                            building[selectedButtonID].GetComponent<ObjectInformation>().price) // 가격이 충분할 때
                         {
+                            if (selectedButtonID < 3)
+                            {
+                                hit.collider.tag = "CantBuild";
+                                Instantiate(buildEffact_s, buildPos, Quaternion.identity);
+                            } // 소형 건물이면 그 자리만 건설불가로 만들고
+                            else if (selectedButtonID >= 3 && selectedButtonID < 10) // 동물일 경우 그냥 놔두고 , fence일 때도 바꾸지 않음
+                            {
+
+                            }
+                            else // 대형 건물이면 3x3 지형을 건설 불가로 만든다
+                            {
+                                foreach (Collider collider in hitcollider)
+                                {
+                                    collider.tag = "CantBuild";
+                                    Instantiate(buildEffact_b, buildPos, Quaternion.identity);
+                                }
+                            }
+
+                            DataManager.instance.playerData.money -= building[selectedButtonID].GetComponent<ObjectInformation>().price; // 가격을 지불하고
+                            ShopManager.instance.GoldTextUpdate(); // 텍스트를 업데이트함
+                            GameObject building_Instant = Instantiate(building[selectedButtonID], buildPos, building_Objcet[selectedButtonID].transform.rotation);
+                            building_Instant.tag = "Object"; // 태그를 오브젝트로 바꾸는 이유는 건설 미완료 상태에서 건설 시 바텀 팝업을 뜨우지 않기 위해서이다.
+                            startBuild = false;
+                            building_Objcet[selectedButtonID].transform.position = originalPos;
+                            
+                        }
+                        else{ //  돈없으면 다시 원래대로 되돌림
+                            for (int i = 0; i < building.Length; i++)
+                                if (building[i] != null)
+                                    building_Objcet[i].transform.position = originalPos;
+                            startBuild = false;
 
                         }
-                        else // 대형 건물이면 3x3 지형을 건설 불가로 만든다
-                        {
-                            foreach (Collider collider in hitcollider)
-                            {
-                                collider.tag = "CantBuild";
-                            }
-                        }
-                        GameObject building_Instant = Instantiate(building[selectedButtonID], buildPos , building_Objcet[selectedButtonID].transform.rotation);
-                        building_Instant.tag = "Object"; // 태그를 오브젝트로 바꾸는 이유는 건설 미완료 상태에서 건설 시 바텀 팝업을 뜨우지 않기 위해서이다.
-                        startBuild = false; 
-                        building_Objcet[selectedButtonID].transform.position = originalPos; 
+                        
                     }
                 }
 

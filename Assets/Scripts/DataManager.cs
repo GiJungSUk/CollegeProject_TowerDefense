@@ -9,6 +9,7 @@ public class PlayerData
 {
     public string name;
     public string datetime;
+    public int hp = 100;
     public int stage = 1;
     public int money = 100;
 
@@ -29,6 +30,9 @@ public class PlayerData
     public int wool = 0;
 
     public int feed = 0;
+
+    public List<Vector3> objectPosition = new List<Vector3>(); 
+    public List<string> objectName = new List<string>();
 }
 
 public class DataManager : MonoBehaviour
@@ -59,8 +63,25 @@ public class DataManager : MonoBehaviour
 
     public void SaveData()
     {
+        SavePosition();
+
         string data = JsonUtility.ToJson(playerData);
         File.WriteAllText(path + nowSlot.ToString(), data );
+    }
+
+    public void SavePosition()
+    {
+        Collider[] colliders = Physics.OverlapSphere(new Vector3(0.3f, 0, -10) , 30f);
+
+        foreach (Collider collider in colliders)
+        {
+            if(collider.gameObject.tag == "Object")
+            {
+                playerData.objectPosition.Add(collider.gameObject.transform.position);
+                playerData.objectName.Add(collider.gameObject.GetComponent<ObjectInformation>().name);
+            }
+        }
+       
     }
 
     public void LoadData()

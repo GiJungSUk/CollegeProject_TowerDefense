@@ -13,7 +13,7 @@ public class Sheep : LivestockFarming
 
     public override void GetProduct()
     {
-        base.GetProduct();
-        // 양모를 얻는 코드
+        DataManager.instance.playerData.wool++;
+        print(DataManager.instance.playerData.wool + " 양모 획득");
     }
 }
