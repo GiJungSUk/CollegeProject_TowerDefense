@@ -22,11 +22,11 @@ public class TowerAttack : MonoBehaviour
     [SerializeField]
     bool lookAtFlag = false;
 
-    private TowerInformation towerInfo;
+    private TowerInformation towerInfo_;
     void Start()
     {
-        towerInfo = GetComponent<TowerInformation>();
-        setBulletStats(towerInfo);
+        towerInfo_ = GetComponent<TowerInformation>();
+        setBulletStats(towerInfo_);
     }
 
     void Update()

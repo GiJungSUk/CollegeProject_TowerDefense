@@ -7,7 +7,7 @@ public class UpgradePlant : UpgradeObject
     private Farming farming;
     private PlantsInformation plantInfo;
     private UIManager uiManager;
-    void Awake()
+    void Start()
     {
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         farming = GetComponent<Farming>();

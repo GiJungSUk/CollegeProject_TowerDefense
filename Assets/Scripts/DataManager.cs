@@ -11,7 +11,7 @@ public class PlayerData
     public string datetime;
     public int hp = 100;
     public int stage = 1;
-    public int money = 100;
+    public int money = 200;
 
     public int tomatoSeed=0;
     public int carrotSeed=0;
@@ -32,6 +32,7 @@ public class PlayerData
     public int feed = 0;
 
     public List<Vector3> objectPosition = new List<Vector3>(); 
+    public List<Vector3> objectLotation = new List<Vector3>();
     public List<string> objectName = new List<string>();
     public List<int> objectLevel = new List<int>();
 }
@@ -73,6 +74,11 @@ public class DataManager : MonoBehaviour
 
     public void SavePosition()
     {
+        playerData.objectPosition.Clear();
+        playerData.objectLotation.Clear();
+        playerData.objectLevel.Clear();
+        playerData.objectName.Clear();
+
         Collider[] colliders = Physics.OverlapSphere(new Vector3(0.3f, 0, -10) , 30f);
 
         foreach (Collider collider in colliders)
@@ -80,6 +86,7 @@ public class DataManager : MonoBehaviour
             if(collider.gameObject.tag == "Object")
             {
                 playerData.objectPosition.Add(collider.gameObject.transform.position);
+                playerData.objectLotation.Add(collider.gameObject.transform.rotation.eulerAngles);
                 playerData.objectName.Add(collider.gameObject.GetComponent<ObjectInformation>().name);
                 playerData.objectLevel.Add(collider.gameObject.GetComponent<ObjectInformation>().level);
             }

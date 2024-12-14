@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 1385829669315513125}
   m_Layer: 0
   m_Name: TowerA
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeObject: {fileID: 2365831884621834207, guid: e60f90b1edacab341915eaf7031e4656, type: 3}
   upgradeEffect: {fileID: 4557073698510574151, guid: 152b26d6bb970d14192b83bf861851d0, type: 3}
+  obj: {fileID: 0}
 --- !u!114 &706170598585699766
 MonoBehaviour:
   m_ObjectHideFlags: 0

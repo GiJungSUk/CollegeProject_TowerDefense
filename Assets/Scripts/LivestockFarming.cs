@@ -48,8 +48,7 @@ public class LivestockFarming : MonoBehaviour
         currutHarvestTime = 0f;
         aniInfo.canHarvest = false;
         aniInfo.time = 0f;
-        Vector3 pos = new Vector3 (gameObject.transform.position.x, 4, gameObject.transform.rotation.z);
-        Instantiate(harvestEffact, pos , Quaternion.identity);
+        Instantiate(harvestEffact, gameObject.transform.position , Quaternion.identity);
         uiManager.InputInformation(gameObject);
     }
 

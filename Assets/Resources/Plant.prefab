@@ -389,6 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeObject: {fileID: 0}
   upgradeEffect: {fileID: 4557073698510574151, guid: 152b26d6bb970d14192b83bf861851d0, type: 3}
+  obj: {fileID: 0}
+  uiManager_: {fileID: 0}
 --- !u!114 &8179758492309751971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,11 +416,11 @@ MonoBehaviour:
   - {fileID: 6572185380339361574, guid: 3eaceb6d80477754ab27b6d52d1290e7, type: 3}
   - {fileID: 3002208430773059440, guid: 9085f8959d85340408dea96aaad877e0, type: 3}
   growingTime:
-  - 5
-  - 100
-  - 130
-  - 170
-  - 200
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
   seed: {fileID: 207455922758663971, guid: 0c6a1cbe2800bde4296f725219ab61a9, type: 3}
   wetEffact: {fileID: 3425203883525317418, guid: 9d0cb158dc4d50347a8c97700092e38d, type: 3}
   sowEffact: {fileID: 1023954547763321349, guid: c63beaf0af510cb4d81df827f9e66ff8, type: 3}

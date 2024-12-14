@@ -244,6 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeObject: {fileID: 0}
   upgradeEffect: {fileID: 4557073698510574151, guid: 152b26d6bb970d14192b83bf861851d0, type: 3}
+  obj: {fileID: 0}
 --- !u!114 &-3883364712946863777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 200
-  level: 2
+  level: 1
   upgradePrice: 10
   name: TowerB
   objectPic: {fileID: 21300000, guid: 89e10e1817d1c5144bfc96bdb99f8c5a, type: 3}

@@ -213,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeObject: {fileID: 3060974141573759833, guid: 9d24266d7f9dbcc4895a62cd1cf0b6a4, type: 3}
   upgradeEffect: {fileID: 4557073698510574151, guid: 152b26d6bb970d14192b83bf861851d0, type: 3}
+  obj: {fileID: 0}
 --- !u!65 &-6542746566489010465
 BoxCollider:
   m_ObjectHideFlags: 0

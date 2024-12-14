@@ -9,7 +9,7 @@ public class UpgradeAnimal : UpgradeObject
     private AnimalInformation animalInfo;
     private LivestockFarming live;
 
-    private void Awake()
+    private void Start()
     {
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         animalInfo = GetComponent<AnimalInformation>();
@@ -29,7 +29,6 @@ public class UpgradeAnimal : UpgradeObject
             live.productTime -= live.productTime * 0.1f;
 
             Instantiate(upgradeEffect, gameObject.transform.position, Quaternion.identity);
-            print(gameObject);
             uiManager.InputInformation(gameObject);
             
             print("업그레이드");

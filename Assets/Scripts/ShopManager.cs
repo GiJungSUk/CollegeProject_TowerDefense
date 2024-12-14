@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,8 @@ public class ShopManager : MonoBehaviour
     public TextMeshProUGUI woolText;
     public TextMeshProUGUI milkText;
     public TextMeshProUGUI eggText;
+
+    public TextMeshProUGUI merchantText;
 
 
     [HideInInspector]
@@ -64,8 +67,7 @@ public class ShopManager : MonoBehaviour
 
     PlayerData data;
     public static ShopManager instance;
-
-
+   
     void Awake()
     {
         if (null == instance)
@@ -103,7 +105,7 @@ public class ShopManager : MonoBehaviour
 
         if (sellingButton != null)
             sellingButton.onClick.AddListener(() => Order(sellingSlider, sellingMiddle, +1));
-
+ 
     }
 
     public void UpdateOrderTap(Image image , TextMeshProUGUI nameText, TextMeshProUGUI priceText)
@@ -182,7 +184,7 @@ public class ShopManager : MonoBehaviour
                                                                                              // << 소지이상으로 판매할수 없도록하는 장치
         }
 
-
+        StartCoroutine(TypeText("It's a good choice!"));
 
 
         int count = (int)slider.value;
@@ -205,28 +207,48 @@ public class ShopManager : MonoBehaviour
     public void CancelOrder()
     {
         foreach(GameObject objects  in orderList)
-        {
+        {           
             Destroy(objects);
             total = 0;
             totalText.text = "0";
-        }
+        }       
         order = null;
         UpdateProduct();
     }
 
- 
+    public void CancelText()
+    {
+        StopAllCoroutines();
+        StartCoroutine(TypeText("Cancel? Oh no!"));
+    }
 
     public void ConfirmOrder()
     {
-        if(data.money + total >= 0)
+        if(data.money + total >= 0 && order != null)
         {
+            StopAllCoroutines();
+            StartCoroutine(TypeText("Good Product, Good Price"));
             data.money += total;
             order();
             order = null;
             CancelOrder();
-            print("주문완료");
         }
+        else
+        {
+            StopAllCoroutines();
+            StartCoroutine(TypeText("Don't you have no money?"));
+        }
+
         GoldTextUpdate();
+    }
+    public IEnumerator TypeText(string text)
+    {       
+        merchantText.text = "";
+        for (int i = 0; i < text.Length; i++)
+        {
+            merchantText.text += text[i]; // 한 글자 추가
+            yield return new WaitForSeconds(0.03f); // 딜레이
+        }
     }
 
     public void GoldTextUpdate()

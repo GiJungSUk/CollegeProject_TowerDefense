@@ -6,21 +6,23 @@ public class UpgradeTower : UpgradeObject
 {
 
     TowerInformation towerInfo;
-    private UIManager uiManager;
     TowerAttack towerAttack;
-    private void Awake()
-    {
-        uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
-        towerInfo = GetComponent<TowerInformation>();
-        towerAttack = GetComponent<TowerAttack>();
-    }
-
     private void Start()
     {
-            towerInfo.attackDamage += 4 * (towerInfo.level -1);
-            towerInfo.attackRange += 0.6f * (towerInfo.level - 1);
-            towerInfo.attackTime -= 0.02f * (towerInfo.level - 1);
+        uiManager_ = GameObject.Find("UIManager").GetComponent<UIManager>();
+        towerInfo = GetComponent<TowerInformation>();
+        towerAttack = GetComponent<TowerAttack>();
+        obj = GetComponent<TowerInformation>();
+
+        towerInfo.attackDamage += 4 * (towerInfo.level - 1);
+        towerInfo.attackRange += 0.6f * (towerInfo.level - 1);
+        towerInfo.attackTime += 0.02f * (towerInfo.level - 1);
+
+        towerAttack.setBulletStats(towerInfo);
+
+        print("타워 awake");
     }
+
     public override void Upgrade()
     {
         if(DataManager.instance.playerData.money >= towerInfo.upgradePrice )
@@ -35,7 +37,7 @@ public class UpgradeTower : UpgradeObject
 
             towerAttack.setBulletStats(towerInfo);
             Instantiate(upgradeEffect, gameObject.transform.position, Quaternion.identity);
-            uiManager.InputInformation(gameObject);
+            uiManager_.InputInformation(gameObject);
             print("업그레이드");
         }
     }
